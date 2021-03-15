@@ -156,7 +156,14 @@ li{
 
 .category{
     text-align: center;
+    padding: 3px;
+    text-align: center;
+    border-radius: 55px;
 }
+.category:hover{
+    background-color: #c8e7e1 ;
+}
+
 
 .category img{
     width: 140px;
@@ -173,6 +180,8 @@ li{
 .slak{
     padding-top: 150px;
 }
+
+
 
 
 
