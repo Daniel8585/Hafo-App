@@ -133,6 +133,36 @@ li{
     .sign{
         display: none;
     }
+    /* burg-drop*/
+.burger {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .burger-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #c8e7e1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .burger-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .burger-content ul{
+      padding: 10px;
+  }
+  
+  .burger-content a:hover {color:#134c5f;}
+  
+  .burger:hover .burger-content {display: block;}
  }
 
 
@@ -151,6 +181,37 @@ li{
     .sign{
         display: none;
     }
+    /* burg-drop*/
+.burger {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .burger-content {
+    display: none;
+    position: absolute;
+    margin-left: -146px;
+    border-radius: 5px;
+    background-color: #c8e7e1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .burger-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .burger-content ul{
+      padding: 10px;
+  }
+  
+  .burger-content a:hover {color:#134c5f;}
+  
+  .burger:hover .burger-content {display: block;}
  }
 
 
@@ -165,6 +226,37 @@ li{
     .menu{
         left: 10px;
     }
+    /* burg-drop*/
+.burger {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .burger-content {
+    display: none;
+    position: absolute;
+    margin-left: -146px;
+    border-radius: 5px;
+    background-color: #c8e7e1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .burger-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .burger-content ul{
+      padding: 10px;
+  }
+  
+  .burger-content a:hover {color:#134c5f;}
+  
+  .burger:hover .burger-content {display: block;}
   }
 
 
@@ -179,6 +271,37 @@ li{
     .menu{
         left: 10px;
     }
+/* burg-drop*/
+.burger {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .burger-content {
+    display: none;
+    position: absolute;
+    margin-left: -146px;
+    border-radius: 5px;
+    background-color: #c8e7e1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .burger-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .burger-content ul{
+      padding: 10px;
+  }
+  
+  .burger-content a:hover {color:#134c5f;}
+  
+  .burger:hover .burger-content {display: block;}
  }
 
 
