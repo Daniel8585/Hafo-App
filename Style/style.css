@@ -39,7 +39,7 @@ li{
     padding: 0;
 }
 .nav-menu li a img{
-    position: fixed;
+    position: absolute;
 }
 
 /* hover color in menu*/
@@ -98,11 +98,53 @@ li{
     background-color: white;
 }
 
+/*block-hero*/
 
 
+/*hero-text*/
+.block-hero{
+    padding-top: 50px;
+    padding-bottom: 160px;
+}
 
+.hero-text{
+    padding-top: 80px;
+    text-align:start
+}
 
+.hero-text h1{
+    width: 700px;
+    font-size: 40px;
+    line-height: normal;
+}
+.hero-text p{
+    font-size: 14px;
+    line-height: 1.88;
+}
+.hero-text button{
+    width: 170px;
+    height: 55px;
+    border: 0;
+    border-radius: 28px;
+    background-color: #134c5f;
+    color: white;
+    margin-top: 20px;
+}
 
+/*hero-img*/
+.hero-img{
+    width: 627px;
+    height: 585px;
+    padding: 91px 14px 0 0;
+    background-color: #fee46b;
+    border-radius: 50%;
+    padding-top: 0;
+}
+
+.hero-img img{
+    padding-top: 30px;
+    width: 576px;
+}
 
 
 
@@ -166,6 +208,8 @@ li{
  }
 
 
+
+
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .nav-menu{
         display: none;
@@ -215,6 +259,8 @@ li{
  }
 
 
+
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     .nav-menu{
         display: none;
@@ -257,7 +303,49 @@ li{
   .burger-content a:hover {color:#134c5f;}
   
   .burger:hover .burger-content {display: block;}
+  .hero-text{
+    padding-top: 80px;
+    text-align:start
+}
+/*hero-text*/
+.hero-text h1{
+    width: 700px;
+    font-size: 30px;
+    line-height: normal;
+}
+.hero-text p{
+    font-size: 12px;
+    line-height: 1.88;
+}
+.hero-text button{
+    width: 170px;
+    height: 55px;
+    border: 0;
+    border-radius: 28px;
+    background-color: #134c5f;
+    color: white;
+    margin-top: 20px;
+}
+
+  /*hero-img*/
+.hero-img{
+    width: 455px;
+    height: 430px;
+    padding: 91px 14px 0 0;
+    background-color: #fee46b;
+    border-radius: 50%;
+    padding-top: 0;
+}
+
+.hero-img img{
+    padding-top: 30px;
+    width: 415px;
+}
+
+
   }
+
+
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -302,7 +390,50 @@ li{
   .burger-content a:hover {color:#134c5f;}
   
   .burger:hover .burger-content {display: block;}
+
+/*hero-block*/
+  .hero-text{
+    padding-top: 80px;
+    text-align:start
+}
+
+.hero-text h1{
+    width: 700px;
+    font-size: 35px;
+    line-height: normal;
+}
+.hero-text p{
+    font-size: 13px;
+    line-height: 1.88;
+}
+.hero-text button{
+    width: 170px;
+    height: 55px;
+    border: 0;
+    border-radius: 28px;
+    background-color: #134c5f;
+    color: white;
+    margin-top: 20px;
+}
+
+  /*hero-img*/
+.hero-img{
+    width: 530px;
+    height: 489px;
+    padding: 91px 14px 0 0;
+    background-color: #fee46b;
+    border-radius: 50%;
+    padding-top: 0;
+}
+
+.hero-img img{
+    padding-top: 30px;
+    width: 467px;
+}
+
  }
+
+
 
 
 @media (min-width: 1200px) {  
