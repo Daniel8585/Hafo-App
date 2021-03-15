@@ -131,6 +131,10 @@ li{
     margin-top: 20px;
 }
 
+.hero-text button:hover{
+    opacity: .8;
+}
+
 /*hero-img*/
 .hero-img{
     width: 627px;
@@ -145,6 +149,48 @@ li{
     padding-top: 30px;
     width: 576px;
 }
+
+
+
+/* slide-block */
+
+.category{
+    text-align: center;
+}
+
+.category img{
+    width: 140px;
+    height: 215px;
+}
+
+.category h3{
+    font-size: 16px;
+}
+.category p{
+    font-size: 12px;
+    color: gray;
+}
+.slak{
+    padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
