@@ -239,9 +239,8 @@ li{
 }
 /*product*/
 
-.product-block{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+.product{
+    padding-bottom: 150px;
 }
 .block1{
     padding: 20px;
@@ -265,6 +264,11 @@ li{
     background-color:#134c5f ;
     color:#c8e7e1 ;
 }
+
+.block1:hover{
+    background-color:#c8e7e1 ;
+}
+
 .block1 h1{
     font-size: 17px;
 }
