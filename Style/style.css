@@ -550,6 +550,23 @@ li{
 
 
 
+.block1 img{
+    padding-left: 0px;
+    width: 115px;
+}
+.block1 h1{
+    font-size: 12px;
+}
+.block1 p{
+    font-size: 12px;
+}
+
+.block1{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 9px;
+    border-radius: 5px;
+}
 
   }
 
@@ -693,8 +710,8 @@ li{
 }
 
 .block1 img{
-    padding-left: 25px;
-    width: 170px;
+    padding-left: 19px;
+    width: 150px;
 }
 
 
@@ -707,6 +724,10 @@ li{
 
     .burger{
         display: none;
+    }
+    .block1 img{
+        padding-left: 35px;
+        width: 170px;
     }
 
 }
