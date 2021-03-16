@@ -311,6 +311,16 @@ li{
   .burger-content a:hover {color:#134c5f;}
   
   .burger:hover .burger-content {display: block;}
+
+  /*slide*/
+  .slide1, .slide3{
+    display: none;
+}
+.cat{
+    width: 120px;
+    height: 190px;
+}
+
  }
 
 
@@ -397,6 +407,11 @@ li{
     width: 415px;
 }
 
+
+/* slide */
+  .slide1, .slide3{
+      display: none;
+  }
 
   }
 
